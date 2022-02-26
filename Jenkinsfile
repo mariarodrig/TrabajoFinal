@@ -9,7 +9,7 @@ pipeline {
 
     stage('Correo') {
       steps {
-        mail(subject: 'produccionsita', body: 'esta es una producción', from: 'maria_rodriguez82182@elpoli.edu.co', to: 'maria_rodriguez82182@elpoli.edu.co')
+        mail(subject: 'produccionsita', body: 'esta es una producciÃ³n', from: 'marialej1505@gmail.com', to: 'maria_rodriguez82182@elpoli.edu.co')
       }
     }
 
